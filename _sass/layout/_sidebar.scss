@@ -9,12 +9,15 @@
 .sidebar {
   -webkit-transform: translate3d(0, 0 , 0);
           transform: translate3d(0, 0 , 0);
+   
+  max-width: 300px; 
+  padding-right: 20px;
 
   @include clearfix();
   margin-bottom: 1em;
 
   @media (orientation: portrait) {
-    margin-top: 1em;
+    margin-top: 1em;width
   }
 
   @media screen and (min-width: $sidebar-screen-min-width) {
@@ -58,6 +61,11 @@
   img {
     width: 100%;
   }
+   
+   word-wrap: break-word;     
+   overflow-wrap: anywhere;     
+   white-space: normal;       
+   line-height: 1.5;           
 }
 
 .sidebar__right {
