@@ -1,5 +1,5 @@
 ---
-title: "Paper Title Number 3"
+title: "CBFs-Based Model Predictive Control for Obstacle Avoidance With Tilt Angle Limitation for Ball-Balancing Robots"
 collection: publications
 category: manuscripts
 permalink: /publication/2015-10-01-paper-title-number-3
