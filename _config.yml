@@ -26,8 +26,8 @@ author:
   avatar           : "profile_image.jpg"
   name             : "Minh Duc PHAM"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar Short biography for the left-hand sidebar"
-  location         : "Évry-Courcouronnes, Essone, Île-de-France, France"
+  bio              : "Short biography for the left-hand sidebar Short biography for the left-hand sidebar Short biography for the left-hand sidebar"
+  location         : "Essone, Île-de-France, France"
   employer         : "Université Évry Paris-Saclay"
   uri              : # URL
   email            : "ducphamminh1002002@gmail.com" 
@@ -87,6 +87,14 @@ publication_category:
     title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
+
+achievement_category:
+  award:
+    title: 'Awards'
+  scholarship:
+    title: 'Scholarships'    
+  language:
+    title: 'Languages'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
@@ -230,6 +238,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  achievements:
+    output: true
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -287,6 +298,7 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+
 
 
 # Sass/SCSS

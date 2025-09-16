@@ -1,0 +1,55 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+
+    <style>
+      .date-link-container {
+        display: flex;
+        align-items: center; 
+        justify-content: flex-start;
+      }
+
+      .date-link-container .date {
+        margin-right: 10px;  
+        min-width: 100px;    
+      }
+      .btn {
+        background-color: #808080;
+        color: #fff;             
+        border: 1px solid #666;     
+        padding: 5px 10px;         
+        text-decoration: none;      
+        border-radius: 3px;        
+      }
+
+      .btn:hover {
+        background-color: #666;  
+      }
+    </style>
+    
+    <h3 style="margin-bottom: -0.8em">{{ post.title }}</h3>
+    {% if post.category == 'scholarship' %}
+      <p style="font-size: smaller; margin-bottom: -0.8em"><i>{{ post.program }}</i></p>
+    {% endif %} 
+    <p class="date-link-container">
+      {% if post.date %}
+        <span class="date">{{ post.date | default: "1900-01-01" | date: "%b %Y" }}</span>
+      {% endif %}
+      {% if post.start_date %}
+        <span class="date">{{ post.start_date | default: "1900-01-01" | date: "%Y" }} - {{ post.end_date | default: "1900-01-01" | date: "%Y" }}</span>
+      {% endif %}
+      
+      {% if post.pdf_url %}
+        <a href="{{ post.pdf_url }}" target="_blank" class="btn">More info ...</a>
+      {% endif %}
+    </p>
+
+  </article>
+</div>

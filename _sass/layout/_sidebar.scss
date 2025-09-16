@@ -10,10 +10,10 @@
   -webkit-transform: translate3d(0, 0 , 0);
           transform: translate3d(0, 0 , 0);
 
-   max-width: 500px;
-   word-wrap: break-word;     
-   overflow-wrap: anywhere;     
-   white-space: normal;       
+  //  max-width: 500px;
+  //  word-wrap: break-word;     
+  //  overflow-wrap: anywhere;     
+  //  white-space: normal;       
 
   @include clearfix();
   margin-bottom: 1em;
@@ -30,7 +30,7 @@
   }
 
   @include breakpoint($large) {
-    @include span(2 of 12);
+    @include span(2.15 of 12);
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
             transition: opacity 0.2s ease-in-out;
@@ -116,9 +116,9 @@
   padding-right: 25px;
   line-height: 1;
    
-   word-wrap: break-word;
-  overflow-wrap: anywhere;
-  white-space: normal;
+  //  word-wrap: break-word;
+  // overflow-wrap: anywhere;
+  // white-space: normal;
 
   @include breakpoint($large) {
     display: block;
