@@ -9,7 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+<a href="{{ base_path }}/files/cv.pdf" target="_blank" class="btn">Curriculum Vitae (PDF)</a>
+
+<!-- Education
 ======
 * Ph.D in Version Control Theory, GitHub University, 2018 (expected)
 * M.S. in Jekyll, GitHub University, 2014
@@ -57,8 +59,5 @@ Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+  {% endfor %}</ul> -->
+
