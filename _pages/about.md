@@ -1,15 +1,21 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "ABOUT ME"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+Hi, my name is Minh Duc Pham (Phạm Minh Đức). This is my personal page where I share my academic journey and future orientation. Thank you for visiting !!!
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+I am currently a Master student in <strong>M2-Mechatronics, Machine Vision, and Artificial Intelligence</strong> at <i>Université Évry Paris-Saclay</i>. 
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+I have graduated with the Bachelor' Degree in <strong>Talent Program - Control Engineering and Automation</strong> at <i>Hanoi University of Science and Technology (HUST)</i>, where I have strong foundation in Control theory and experiences in Robotics systems as well as academic researches. I pursue Master's Degree to approach new knowleadge in Computer Visison and AI, which can be combined with my gackground in Control and Robotics for designing intelligent and safe robot systems in various complicated fields.
+
+In the second semester of my Master 2 Program, I will undertake a full-semester internship. I am looking for internship opportunities in Université Paris-Saclay Community and far away, the PhD/industrial PhD positions in Robotics and Control Engineering with Computer Vision and AI, or relevant approaches. I am always open to exploring new areas and eager to challenge myself through research and collaboration.
+
+
+ <!-- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads! -->
 
 EDUCATION
 ======
@@ -17,7 +23,7 @@ EDUCATION
   <img src="images/logo_ueve.png" alt="Université Évry Logo" style="width:50px; margin-right:10px;">
   <div>
     <strong>Université Évry Paris-Saclay</strong><br>
-    Master's degree, M2 Mechatronics, Machine Vision and Artificial Intelligence<br>
+    Master's degree, Mechatronics, Machine Vision and Artificial Intelligence<br>
     <em>Sep 2025 – Sep 2026</em><br>
     Granted International Master's Scholarship IDEX of Université Paris-Saclay (2025–2026)
   </div>

@@ -26,7 +26,7 @@ author:
   avatar           : "profile_image.jpg"
   name             : "Minh Duc PHAM"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar Short biography for the left-hand sidebar Short biography for the left-hand sidebar"
+  bio              : "Master student in Mechtronics, Machine Vision and AI | Seeking for Internship and PhD positions in Robotics and Control Engineering with Computer Vision and AI."
   location         : "Essone, Île-de-France, France"
   employer         : "Université Évry Paris-Saclay"
   uri              : # URL
@@ -38,7 +38,7 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=JL-7BVsAAAAJ&hl=en"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/my-orcid?orcid=0009-0007-4509-2155"
+  orcid            : "https://orcid.org/0009-0007-4509-2155"
   semantic         : # URL
   pubmed           : #
   researchgate     : # URL
@@ -48,7 +48,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "https://github.com/phamminhducH"
+  github           : "phamminhducH"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -63,7 +63,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "https://www.linkedin.com/in/minh-duc-pham-2666551b8/"
+  linkedin         : "/minh-duc-pham-2666551b8/"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -95,6 +95,14 @@ achievement_category:
     title: 'Scholarships'    
   language:
     title: 'Languages'
+
+portfolio_category:
+  major:
+    title: 'Projects'   
+  minor:
+    title: 'Minor Projects' 
+  other:
+    title: 'Others'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews

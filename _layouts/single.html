@@ -38,6 +38,10 @@ layout: default
           <p style="margin-bottom: -1em"> {{ page.start_date | default: "1900-01-01" | date: "%B %Y" }} - {{ page.end_date | default: "1900-01-01" | date: "%B %Y" }} </p>
           <p style="margin-bottom: -1em">{{ page.type }} at <strong>{{ page.lab }}</strong></p>
           <p style="font-size: smaller"> <i>{{ page.department }}, {{ page.venue }}</i></p>
+        {% elsif page.collection == 'portfolio' %}
+          <p style="margin-bottom: -0.8em"> {{ page.lab }}</p>
+          <p style="font-size: smaller; margin-bottom: -0.8em"> <i>{{ page.venue }}</i></p>
+          <p> {{ page.supervisor }}</p>
         {% elsif page.venue and page.date %}
           <p>{{ page.authors }}</p>
           <p>Published in <i>{{ page.venue }}</i> -- {{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }} </p>
@@ -51,13 +55,13 @@ layout: default
         {{ content }}
 
         {% if page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Paper Link</a> | <a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
         {% elsif page.citation and page.paperurl and page.slidesurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Paper Link</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
         {% elsif page.citation and page.paperurl and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Paper Link</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
         {% elsif page.citation and page.paperurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a></p>
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Paper Link</a></p>
         {% elsif page.citation and page.slidesurl and page.bibtexurl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
         {% elsif page.citation and page.slidesurl %}
