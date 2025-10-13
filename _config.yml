@@ -11,7 +11,7 @@ locale                   : "en-US"
 site_theme               : "air" # Currently available options are "default", "air"
 title                    : "Minh Duc PHAM"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Minh Duc PHAM (Phạm Minh Đức)"
 description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://phamminhduch.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
@@ -138,7 +138,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true     # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
 
 
@@ -234,7 +234,7 @@ kramdown:
 
 # These settings control the types of collections used by the template
 collections:
-  teaching:
+  experiences:
     output: true
     permalink: /:collection/:path/
   publications:
@@ -271,10 +271,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
+  # _experiences
   - scope:
       path: ""
-      type: teaching
+      type: experiences
     values:
       layout: single
       author_profile: true

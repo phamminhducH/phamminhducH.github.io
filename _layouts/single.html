@@ -34,7 +34,7 @@ layout: default
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
         {% endif %}
         
-        {% if page.collection == 'teaching' %}
+        {% if page.collection == 'experiences' %}
           <p style="margin-bottom: -1em"> {{ page.start_date | default: "1900-01-01" | date: "%B %Y" }} - {{ page.end_date | default: "1900-01-01" | date: "%B %Y" }} </p>
           <p style="margin-bottom: -1em">{{ page.type }} at <strong>{{ page.lab }}</strong></p>
           <p style="font-size: smaller"> <i>{{ page.department }}, {{ page.venue }}</i></p>
