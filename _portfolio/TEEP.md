@@ -107,9 +107,17 @@ First time with RL, I implemented both conventional Reinforcement Learning and D
   </figure>
 </div>
 
-<figcaption style="font-size: 0.9em; color: gray; text-align: center;">
-  Designed environments
-</figcaption>
+In addition, I also review and implement some applications of Deep Reinforcement Learning for robots in crowd environments. These model-free models can learn from collision/non-collision experiences without needing detailed kinematic models of surrounding people. LSTM is used to handle cases where the number of surrounding agents changes by encoding the set of agents into a fixed vector.
+
+<figure style="margin: 0 auto; display: block; text-align: center;">
+  <video style="width: 80%; height: auto;" autoplay loop muted>
+    <source src="/videos/DRL_crowd_navigation.mp4" type="video/mp4">
+  </video>
+  <figcaption style="font-size: 0.9em; color: gray; text-align: center;">
+    CADRL and LTSM-RL for robot navigation in simulated crowd enviroment
+  </figcaption>
+</figure>
+
 
 
 
