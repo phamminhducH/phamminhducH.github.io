@@ -28,7 +28,7 @@ And these are the demonstration of some results of my team with Ballbot.
 
 <figure style="margin: 0 auto; display: block; text-align: center;">
   <video style="width: 100%; height: auto;" autoplay loop muted>
-    <source src="/videos/time_optimal.mp4" type="video/mp4">
+    <source src="/videos/MPC_ballbot.mp4" type="video/mp4">
   </video>
   <figcaption style="font-size: 0.9em; color: gray; text-align: center;">
     Time-optimal trajectory generation and observer-based hierarchical sliding mode control for ballbot with system constraints
