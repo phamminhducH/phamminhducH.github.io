@@ -2,7 +2,7 @@
 title: "Research Assistant at Motion Control and Applied Robotics Laboratory (MoCAR)"
 collection: experiences
 type: "On-site Research Assistant"
-permalink: /experiences/MoCAR
+permalink: /experiences/1_MoCAR
 venue: "Hanoi University of Science and Technology"
 department: "School of Electrical and Electronic Engineering"
 start_date: 2021-11-01

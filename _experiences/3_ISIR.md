@@ -2,7 +2,7 @@
 title: "M2 Internship - Resilient navigation on precarious terrain with a Ballbot"
 collection: experiences
 type: "On-site Internship"
-permalink: /experiences/ISIR
+permalink: /experiences/3_ISIR
 venue: "Sorbonne Univesité"
 department: "Institut des Systèmes Intelligents et de Robotique"
 start_date: 2026-03-02

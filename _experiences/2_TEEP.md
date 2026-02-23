@@ -2,7 +2,7 @@
 title: "TEEP Internship in Computational Intelligence and Robotics Lab (CIR)"
 collection: experiences
 type: "On-site Internship"
-permalink: /experiences/TEEP
+permalink: /experiences/2_TEEP
 venue: "National Taiwan Normal University"
 department: "Department of Electrical Engineering"
 start_date: 2025-02-01
