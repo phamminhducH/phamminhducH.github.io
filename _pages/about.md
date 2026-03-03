@@ -12,7 +12,7 @@ I am currently a Master student in <strong>M2-Mechatronics, Machine Vision, and 
 
 I have graduated with the Bachelor' Degree in <strong>Talent Program - Control Engineering and Automation</strong> at <i>Hanoi University of Science and Technology (HUST)</i>, where I have strong foundation in Control theory and experiences in Robotics systems as well as academic researches. I pursue Master's Degree to approach new knowleadge in Computer Visison and AI, which can be combined with my gackground in Control and Robotics for designing intelligent and safe robot systems in various complicated fields.
 
-In the second semester of my Master 2 Program, I will undertake a full-semester internship. I am looking for internship opportunities in Université Paris-Saclay Community and far away, the PhD/industrial PhD positions in Robotics and Control Engineering with Computer Vision and AI, or relevant approaches. I am always open to exploring new areas and eager to challenge myself through research and collaboration.
+In the second semester of my Master 2 Program, I am undertaking a full-semester internship at <strong>Institut des Systèmes Intelligents et de Robotique (ISIR), Sorbonne Université</strong> about NAvigation for Ballbot based on Data-driven methods. I am looking for the PhD/CIFRE positions in Robotics and Control Engineering with Computer Vision and AI, or relevant approaches. I am always open to exploring new areas and eager to challenge myself through research and collaboration.
 
 
  <!-- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads! -->
@@ -22,7 +22,7 @@ EDUCATION
 <div class="edu-entry">
   <img src="images/logo_ueve.png" alt="Université Évry Logo" style="width:50px; margin-right:10px;">
   <div>
-    <strong>Université Évry Paris-Saclay</strong><br>
+    <strong>Université Paris-Saclay</strong><br>
     Master's degree, Mechatronics, Machine Vision and Artificial Intelligence<br>
     <em>Sep 2025 – Sep 2026</em><br>
     Granted International Master's Scholarship IDEX of Université Paris-Saclay (2025–2026)
