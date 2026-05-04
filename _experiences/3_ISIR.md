@@ -39,7 +39,7 @@ Currently, the objectives is adjusting the tilt angle to keep balancing when rob
   </figcaption>
 </figure>
 
-However, sometimes the robot cannot have enough pre-contact velocity to climb over the obstacle, we need a acceleration phase before contact phase to get proper velocity (using normal Cacade PID), before switching to RL. In this control architecture, RL will be the high-level controller, which give the angle trajectory fot the low-level PID controller. I am using Proximal Policy Optimization (PPO) for training with MuJoCo physic engine due to its advantage of rigid contact. The simulation is done in both movement with arms and without arms. I am in the process of Sim-to-Real tranferring to use the trained policy from simulation in real robot platform (Mirokai from Enchanted Tools). There are some video on simulation: 
+However, sometimes the robot cannot have enough pre-contact velocity to climb over the obstacle, we need a acceleration phase before contact phase to get proper velocity (using normal Cacade PID), before switching to RL. In this control architecture, RL will be the high-level controller, which give the angle trajectory fot the low-level PID controller. I am using Proximal Policy Optimization (PPO) for training with MuJoCo physic engine due to its advantage of rigid contact. The simulation is done in both movement with arms and without arms. There are some video on simulation: 
 
 <figure style="margin: 0 auto; display: block; text-align: center;">
   <video style="width: 100%; height: auto;" autoplay loop muted>
@@ -58,6 +58,15 @@ However, sometimes the robot cannot have enough pre-contact velocity to climb ov
   </video>
   <figcaption style="font-size: 0.9em; color: gray; text-align: center;">
     Mirokai overcomes the bump using pitch angle and arms movement
+  </figcaption>
+</figure>
+
+After that, I am in the process of Sim-to-Real tranferring to use the trained policy from simulation in real robot platform (Mirokai from Enchanted Tools).
+
+<figure style="text-align: center; margin: 0 auto; display: block;">
+  <img src="/images/Mirokai.jpeg" alt="Mirokai platform from Enchanted Tools at ISIR" tiltle="Mirokai platform from Enchanted Tools at ISIR" style="width: 80%; height: auto;" />
+  <figcaption style="font-size: 0.9em; color: gray;">
+    Mirokai platform from Enchanted Tools at ISIR
   </figcaption>
 </figure>
 
